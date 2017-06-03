@@ -1,9 +1,4 @@
 node {
-properties([
-    pipelineTriggers([
-      [$class: "GitHubPushTrigger"]
-    ])
-  ])
     stage('Build') {
         echo 'Building....'
     }
